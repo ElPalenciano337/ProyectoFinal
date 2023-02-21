@@ -92,5 +92,5 @@ do{
     planFinal = planBase + recargoUsuario + recargoConyugue + recargoHijos + recargoPropiedades + recargoSalario;
     alert("El precio de tu seguro es de: " + planFinal);
         }
-    salida = prompt("Deseas salir? ");
-}while(salida != "salir");
+    salida = prompt("Escribe salir para terminar el proceso.");
+}while(salida.toLowerCase() != "salir");
