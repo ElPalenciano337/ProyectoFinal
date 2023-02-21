@@ -11,8 +11,6 @@ let recargoSalario = 0;
 let conyugue = String;
 let hijos = String;
 let propiedades = String;
-/* var salida = "continuar"; */
-
 //Edades / Cantidades
 let edadUsuario = 0;
 let edadConyugue = 0;
@@ -46,6 +44,7 @@ function calculoSalario(){
     return salario * porcentajeSalario;
 }
 
+//Bucle con todo el procedimiento a realizar
 do{
     edadUsuario = prompt("Cuántos años tienes?");
     if(edadUsuario < 18){
